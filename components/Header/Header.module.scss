@@ -1,0 +1,63 @@
+.root {
+  background-image: linear-gradient(
+    45deg,
+    #1677ff 0%,
+    #e90207 46%,
+    #ff8c00 100%
+  ) !important;
+  font-weight: 500;
+  font-size: 20px;
+
+  h2 {
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    top: -2px;
+    font-size: 20px;
+    font-family: "Segoe UI";
+    margin-right: 30px;
+
+    svg {
+      font-size: 24px;
+      position: relative;
+      top: 1px;
+      margin-right: 10px;
+    }
+  }
+
+  :global {
+    .ant-menu {
+      background-color: transparent !important;
+    }
+  }
+}
+
+.headerInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+
+.topMenu {
+  min-width: 200px;
+  font-weight: 300;
+  font-size: 20px;
+  :global {
+    .ant-menu-item-selected {
+      color: #ffffff !important;
+      background-color: rgb(255 255 255 / 15%) !important;
+      border-radius: 0 !important;
+    }
+  }
+}
+
+.headerRight {
+  cursor: pointer;
+}

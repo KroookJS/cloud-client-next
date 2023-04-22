@@ -1,0 +1,1 @@
+export const IsImage = (ext: string) => ['jpg', 'jpeg', 'png', 'gif'].includes(ext)
